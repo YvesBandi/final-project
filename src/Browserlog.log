@@ -1,0 +1,172 @@
+[webpack-dev-server] Server started: Hot Module Replacement disabled, Live Reloading enabled, Progress disabled, Overlay enabled. index.js:485:21
+Level: Info - Message: PushNotificationService: Initializing... console-publisher.factory.ts:30:51
+[2024-05-10T09:33:57.651Z] Information: WebSocket connected to wss://push.cmiag.dev/data?id=JA1UMT4pt0MreLz1F9D9pQ. Utils.js:147:29
+Level: Info - Message: PushNotificationService: Connection established console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send connect message to push service with payloads [{"tokenType":"Bearer","accessToken":"***","lastMessageId":0,"trackedEntityGuids":[]}] console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Angular is running in development mode. vendor.js:157816:15
+ERROR 
+Object { headers: {…}, status: 404, statusText: "OK", url: "https://owin.cmiag.dev/api/core/GlobalObjectCreationMenu/GetCreationMenus?appGuid=&pageGuid=&language=dech", ok: false, name: "HttpErrorResponse", message: "Http failure response for https://owin.cmiag.dev/api/core/GlobalObjectCreationMenu/GetCreationMenus?appGuid=&pageGuid=&language=dech: 404 OK", error: null }
+core.mjs:10162:22
+Level: Info - Message: PushNotificationService: Send track message to push service with payloads ["244e4e1c5a9a4ae5a21350bf18342378"] console-publisher.factory.ts:30:51
+[Simple Search] set typeId undefined main.js:16462:15
+Level: Info - Message: PushNotificationService: Send track message to push service with payloads ["abab08f7b22f45078504c11ea454b565","5b7f701ed80e4a0b9cf2bf66a06680ea","b4b0c767ec764862bdc6bb31d5e9a8fa"] console-publisher.factory.ts:30:51
+NG0303: Can't bind to 'cmiMenuItemAsyncProvider' since it isn't a known property of 'cmi-menu' (used in the 'GeneratedComponent' component template).
+1. If 'cmi-menu' is an Angular component and it has the 'cmiMenuItemAsyncProvider' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'cmi-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. 3 core.mjs:6087:16
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Server was restarted, was $2024-05-10T11:32:06.9672807+02:00, now is $2024-05-10T11:37:34.2716415+02:00 console-publisher.factory.ts:30:51
+[2024-05-10T11:37:24.251Z] Error: Connection disconnected with error 'Error: WebSocket closed with status code: 1006 (no reason given).'. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connection disconnected console-publisher.factory.ts:30:51
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[2024-05-10T11:37:35.438Z] Information: WebSocket connected to wss://push.cmiag.dev/data?id=5ANunbEqXv19e2oFfeeiYg. Utils.js:147:29
+Level: Info - Message: PushNotificationService: Connection established console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send connect message to push service with payloads [{"tokenType":"Bearer","accessToken":"***","lastMessageId":0,"trackedEntityGuids":[]}] console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Server was restarted, was $2024-05-10T11:32:06.9672807+02:00, now is $2024-05-10T11:37:34.2716415+02:00 console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send track message to push service with payloads ["244e4e1c5a9a4ae5a21350bf18342378","abab08f7b22f45078504c11ea454b565","5b7f701ed80e4a0b9cf2bf66a06680ea","b4b0c767ec764862bdc6bb31d5e9a8fa"] console-publisher.factory.ts:30:51
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+ERROR Error: An unexpected error occurred invoking 'Track' on the server.
+    invocationDescriptor.invocationId HubConnection.js:312
+    _processIncomingData HubConnection.js:420
+    onreceive HubConnection.js:42
+    onmessage WebSocketTransport.js:81
+    Angular 11
+core.mjs:10162:22
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[webpack-dev-server] Disconnected! index.js:485:21
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+[2024-05-10T11:39:09.808Z] Error: Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connection disconnected console-publisher.factory.ts:30:51
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7514880, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Die Verbindung zu wss://push.cmiag.dev/data?id=5ANunbEqXv19e2oFfeeiYg wurde unterbrochen, während die Seite geladen wurde. vendor.js:3252:23
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7536999, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7561262, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:39:58.725Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:39:58.725Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:39:58.727Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 1 of 30... console-publisher.factory.ts:30:51
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7589534, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:40:31.827Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:40:31.827Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:40:31.827Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 2 of 30... console-publisher.factory.ts:30:51
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7625906, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:41:04.167Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:41:04.167Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:41:04.167Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 3 of 30... console-publisher.factory.ts:30:51
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:41:44.624Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:41:44.624Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:41:44.625Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 4 of 30... console-publisher.factory.ts:30:51
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7678733, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:42:24.091Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:42:24.091Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:42:24.091Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 5 of 30... console-publisher.factory.ts:30:51
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:43:00.511Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:43:00.511Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:43:00.512Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 6 of 30... console-publisher.factory.ts:30:51
+Firefox kann keine Verbindung zu dem Server unter wss://webclient.cmiag.dev/ng-cli-ws aufbauen. WebSocketClient.js:13:18
+[webpack-dev-server] 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, eventPhase: 0, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, timeStamp: 7764306, … }
+index.js:493:22
+[webpack-dev-server] Trying to reconnect... index.js:485:21
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:43:35.923Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:43:35.923Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:43:35.923Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 7 of 30... console-publisher.factory.ts:30:51
+Quellübergreifende (Cross-Origin) Anfrage blockiert: Die Gleiche-Quelle-Regel verbietet das Lesen der externen Ressource auf https://push.cmiag.dev/data/negotiate?negotiateVersion=1. (Grund: CORS-Anfrage schlug fehl). Statuscode: (null). 2
+[2024-05-10T11:44:16.398Z] Warning: Error from HTTP request. TypeError: NetworkError when attempting to fetch resource.. Utils.js:144:29
+[2024-05-10T11:44:16.410Z] Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+[2024-05-10T11:44:16.410Z] Error: Failed to start the connection: Error: Failed to complete negotiation with the server: TypeError: NetworkError when attempting to fetch resource. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connect attempt 8 of 30... console-publisher.factory.ts:30:51
+[2024-05-10T11:44:33.397Z] Information: WebSocket connected to wss://push.cmiag.dev/data?id=ut5XrqG0biGsAPMHUxRC8g. Utils.js:147:29
+Level: Info - Message: PushNotificationService: Connection established console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send connect message to push service with payloads [{"tokenType":"Bearer","accessToken":"***","lastMessageId":0,"trackedEntityGuids":[]}] console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Server was restarted, was $2024-05-10T11:32:06.9672807+02:00, now is $2024-05-10T11:37:34.2716415+02:00 console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send track message to push service with payloads ["244e4e1c5a9a4ae5a21350bf18342378","abab08f7b22f45078504c11ea454b565","5b7f701ed80e4a0b9cf2bf66a06680ea","b4b0c767ec764862bdc6bb31d5e9a8fa"] console-publisher.factory.ts:30:51
+ERROR Error: An unexpected error occurred invoking 'Track' on the server.
+    invocationDescriptor.invocationId HubConnection.js:312
+    _processIncomingData HubConnection.js:420
+    onreceive HubConnection.js:42
+    onmessage WebSocketTransport.js:81
+    Angular 11
+core.mjs:10162:22
+[2024-05-10T11:49:34.190Z] Error: Connection disconnected with error 'Error: Server timeout elapsed without receiving a message from the server.'. Utils.js:141:29
+Level: Info - Message: PushNotificationService: Connection disconnected console-publisher.factory.ts:30:51
+[2024-05-10T11:49:39.316Z] Information: WebSocket connected to wss://push.cmiag.dev/data?id=SuQNISwpQbA17am-h3WJ_Q. Utils.js:147:29
+Level: Info - Message: PushNotificationService: Connection established console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send connect message to push service with payloads [{"tokenType":"Bearer","accessToken":"***","lastMessageId":0,"trackedEntityGuids":[]}] console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Server was restarted, was $2024-05-10T11:32:06.9672807+02:00, now is $2024-05-10T11:37:34.2716415+02:00 console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Send track message to push service with payloads ["244e4e1c5a9a4ae5a21350bf18342378","abab08f7b22f45078504c11ea454b565","5b7f701ed80e4a0b9cf2bf66a06680ea","b4b0c767ec764862bdc6bb31d5e9a8fa"] console-publisher.factory.ts:30:51
+ERROR Error: An unexpected error occurred invoking 'Track' on the server.
+    invocationDescriptor.invocationId HubConnection.js:312
+    _processIncomingData HubConnection.js:420
+    onreceive HubConnection.js:42
+    onmessage WebSocketTransport.js:81
+    Angular 11
+core.mjs:10162:22
+Level: Info - Message: PushNotificationService: Message of type ServerInfo received console-publisher.factory.ts:30:51
+Level: Info - Message: PushNotificationService: Server was restarted, was $2024-05-10T11:32:06.9672807+02:00, now is $2024-05-10T13:52:33.8543880+02:00 console-publisher.factory.ts:30:51
+NG0303: Can't bind to 'cmiMenuItemAsyncProvider' since it isn't a known property of 'cmi-menu' (used in the 'GeneratedComponent' component template).
+1. If 'cmi-menu' is an Angular component and it has the 'cmiMenuItemAsyncProvider' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'cmi-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. core.mjs:6087:16
+NG0303: Can't bind to 'cmiMenuItemAsyncProvider' since it isn't a known property of 'cmi-menu' (used in the 'GeneratedComponent' component template).
+1. If 'cmi-menu' is an Angular component and it has the 'cmiMenuItemAsyncProvider' input, then verify that it is included in the '@Component.imports' of this component.
+2. If 'cmi-menu' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component. 48 core.mjs:6087:16
