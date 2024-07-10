@@ -8,7 +8,7 @@ import Manage from "./pages/Manage"
 import Login from "./pages/Login";
 import ItemDetail from './pages/ItemDetail';
 
-
+ 
 
 function App() {
   
@@ -21,7 +21,7 @@ function App() {
             <Route path="/manage" element = {<Manage />} />
             <Route path="/add" element = {<Add />} />
             <Route path="/login" element= {<Login />} />
-            <Route path="/item/:id" element= {ItemDetail} /> 
+            <Route path="/item" element= {<ItemDetail />} /> 
           </Routes>
         </Router>
     </div>

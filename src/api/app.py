@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS 
 from db_model import db, Material, Platform
-from routes import add_blueprint, get_blueprint
+from routes import add_blueprint, get_blueprint, item_blueprint
 
 
 app = Flask(__name__)
@@ -16,6 +16,7 @@ with app.app_context():
 
 app.register_blueprint(add_blueprint)
 app.register_blueprint(get_blueprint)
+app.register_blueprint(item_blueprint)
 
 
 @app.route('/')
@@ -25,4 +26,4 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

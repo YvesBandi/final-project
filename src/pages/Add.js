@@ -12,6 +12,7 @@ function Add() {
     
 
     const formData = {
+      material_id: 1,
       platformName: platformName.current.value,
       platformNumber: platformNumber.current.value,
       treeNumber: treeNumber.current.value,
